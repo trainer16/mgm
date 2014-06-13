@@ -23,7 +23,7 @@ ErrorDocument 500 /assets/error-500.html
 <IfModule mod_rewrite.c>
 	SetEnv HTTP_MOD_REWRITE On
 	RewriteEngine On	
-	RewriteBase /MGM_Project/
+	RewriteBase /mgm/
 	RewriteRule ^vendor(/|$) - [F,L,NC]
 	RewriteRule silverstripe-cache(/|$) - [F,L,NC]
 	RewriteRule composer\.(json|lock) - [F,L,NC]
